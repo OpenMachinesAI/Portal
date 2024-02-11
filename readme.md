@@ -34,6 +34,7 @@ Here's a JSON template for the manifest of each Portal 2 site:
 ```
 {
   "portal_name": "MyPortal",
+  "portal_icon": "https://example.com/portal_icon.png",
   "portal_permissions": {
     "accessing_portal": true,
     "user_username": true,
@@ -57,6 +58,8 @@ Here's a JSON template for the manifest of each Portal 2 site:
 ## Manfest Meaning:
 
 `portal_name` The name of the Portal.
+
+`portal_icon`: URL to the icon image representing the Portal. replace "https://example.com/portal_icon.png" with the URL of your Portal's icon image.
 
 `portal_permissions`: Object containing permissions settings for the Portal.
 
