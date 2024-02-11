@@ -31,7 +31,7 @@ You also need a manafest for the protocall to understand what site it's looking 
 
 Here's a JSON template for the manifest of each Portal 2 site:
 
-''' json
+''' 
 {
   "portal_name": "MyPortal",
   "portal_permissions": {
