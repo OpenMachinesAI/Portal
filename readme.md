@@ -1,8 +1,8 @@
-# The Portal2 Protocal
-### Our Portal 2 Protocol is a system designed to host websites on a webserver close to the conventional internet. 
-### What sets it apart is its capability to enable interaction among Portal 2 sites, creating a network where these sites can seamlessly communicate and pull from others to update data. 
-### One of Portal2's key features is the implementation of a centralized login system, simplifying user authentication across various Portal 2 sites. Additionally, the protocol facilitates real-time updates of information between interconnected sites, ensuring that changes made on one site are reflected across the network. 
-### This interconnectedness opens up new possibilities for collaboration and data exchange within the Portal 2 ecosystem, enhancing the overall user experience and functionality of the platform.
+# The Portal Protocal
+### The PortalHost Protocol is a system designed to host websites on a webserver close to the conventional internet. 
+### What sets it apart is its capability to enable interaction among Portals, creating a network where these sites can seamlessly communicate and pull from others to update data. 
+### One of Portal's key features is the implementation of a centralized login system, simplifying user authentication across various Portal sites. Additionally, the protocol facilitates real-time updates of information between interconnected sites, ensuring that changes made on one site are reflected across the network. 
+### This interconnectedness opens up new possibilities for collaboration and data exchange within the Portal ecosystem, enhancing the overall user experience and functionality of the platform.
 
 
 # Setup a portal
@@ -29,7 +29,7 @@ You can host your file in 2 ways.
 
 You also need a manafest for the protocall to understand what site it's looking At
 
-Here's a JSON template for the manifest of each Portal 2 site:
+Here's a JSON template for the manifest of each Portal site:
 
 ```
 {
