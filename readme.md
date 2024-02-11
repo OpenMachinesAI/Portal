@@ -26,3 +26,32 @@ You can host your file in 2 ways.
 
 1. Giving it to sa.lex to host. This is recomended for portals not updated often as it can take up to **48 Hours** for changes to be posted.
 2. Hosting html yourself. This is the other option you will host your portal using a .txt file containing your html css and js code. this html code will be displayed when someone views your site. We recommend using github pages to host your txt file
+
+You also need a manafest for the protocall to understand what site it's looking At
+
+Here's a JSON template for the manifest of each Portal 2 site:
+
+''' json
+{
+  "portal_name": "MyPortal",
+  "portal_permissions": {
+    "accessing_portal": true,
+    "user_username": true,
+    "user_age": false,
+    "user_dob": true,
+    "user_unique_number": false
+  },
+  "location": {
+    "type": "hosted",
+    "location_code": "XXXXXX"
+  },
+  "other_location": {
+    "type": "txt_file",
+    "url": "https://example.com/portal.txt"
+  },
+  "portal_description": "This is a description of my Portal.",
+  "portal_creator": "Alex Rose",
+  "portal_date": "2024-02-10"
+}
+'''
+Explanation:
