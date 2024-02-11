@@ -22,3 +22,7 @@ To setup a portal you can write some html code like this
 </body>
 </html>
 ```
+You can host your file in 2 ways.
+
+1. Giving it to sa.lex to host. This is recomended for portals not updated often as it can take up to **48 Hours** for changes to be posted.
+2. Hosting html yourself. This is the other option you will host your portal using a .txt file containing your html css and js code. this html code will be displayed when someone views your site. We recommend using github pages to host your txt file
