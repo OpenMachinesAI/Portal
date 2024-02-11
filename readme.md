@@ -54,21 +54,23 @@ Here's a JSON template for the manifest of each Portal 2 site:
   "portal_date": "2024-02-10"
 }
 ```
-##Manfest Meaning:
+## Manfest Meaning:
 
-portal_name: The name of the Portal.
-portal_permissions: Object containing permissions settings for the Portal.
-accessing_portal: Whether other Portals can access this Portal.
-user_username: Whether to display user usernames.
-user_age: Whether to display user ages.
-user_dob: Whether to display user dates of birth.
-user_unique_number: Whether to display unique user numbers.
-location: Object describing the hosting location.
-type: Type of hosting location (in this case, "hosted").
-location_code: Code provided by Sa.lex for hosting on their servers.
-other_location: Object describing the alternative hosting location.
-type: Type of hosting location (in this case, "txt_file").
-url: URL of the TXT file containing HTML code for rendering on the Portal.
-portal_description: Description of the Portal.
-portal_creator: Creator of the Portal.
-portal_date: Date of creation of the Portal.
+`portal_name` The name of the Portal.
+`portal_permissions`: Object containing permissions settings for the Portal.
+`accessing_portal`: Whether other Portals can access this Portal.
+
+`user_username`: Whether this portal can see it's user usernames.
+`user_age` Whether this portal can see user ages.
+`user_dob` Whether this portal can see user dates of birth.
+`user_unique_number` Whether this portal can see the unique user numbers of the user.
+
+`location` Object describing the hosting location.
+`type` Type of hosting location (in this case, "hosted").
+`location_code` Code provided by Sa.lex for hosting on their servers.
+`other_location` Object describing the alternative hosting location.
+`type` Type of hosting location (in this case, "txt_file").
+`url` URL of the TXT file containing HTML code for rendering on the Portal.
+`portal_description` Description of the Portal.
+`portal_creator` Creator of the Portal.
+`portal_date` Date of creation of the Portal.
