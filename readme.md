@@ -90,3 +90,5 @@ Here's a JSON template for the manifest of each Portal site:
 `portal_creator` Creator of the Portal.
 
 `portal_date` Date of creation of the Portal.
+
+
